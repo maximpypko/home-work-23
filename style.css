@@ -1,0 +1,40 @@
+li {
+  list-style: none;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  font-weight: bold;
+  background:#B7C47F;
+}
+
+.button:hover {
+  opacity: .8;
+}
+
+.films__list,
+.container-starships {
+  padding: 0;
+}
+
+.films__item {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  background: #AE8152;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.starships__list {
+  padding:0 10px 0;
+  margin-left: 30px;
+  background:#E3C381;
+  border-radius: 5px
+}
+
+.starships__item {
+  font-size: 15px;
+}
